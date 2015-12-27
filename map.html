@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+The map tag
+</title>
+</head>
+<body>
+<!--the img tag is the central tag for the image map. The area tag then defines the sub sections of such image map by using the shape and coords attributes 
+to define the area in which they occupy. In this case, the areas represent different HTML pages -->
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="main.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="secondary.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="third.htm">
+</map>
+</body>
+</html>
